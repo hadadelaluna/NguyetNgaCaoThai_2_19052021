@@ -1,3 +1,38 @@
-@media 
+/* PC de bureau */
+/* Page */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #fff;
+}
+body {
+  margin: 0;
+  font-family: Tahoma,Arial,Verdana,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 1.1em;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  color: #888888;
+}
 
-/* test authehtification */
+
+/* Footer */
+
+section {
+#pied-background { }
+.pied ul { list-style-type : none; }
+}
+
+
+
+
+/* Petits écrans */
+@media screen and (max-width:1024px){ 
+
+
+}
