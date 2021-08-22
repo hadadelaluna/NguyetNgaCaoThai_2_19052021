@@ -22,6 +22,8 @@ body {
 
 
 /* Footer */
+footer ul {
+  list-style-type: none;
 
 
 .pied ul { list-style-type : none; }
