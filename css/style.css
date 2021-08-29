@@ -1,5 +1,4 @@
-/* PC de bureau */
-/* Page */
+/* Petits écrans */
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +19,9 @@ body {
   color: #888888;
 }
 
+/* Page */
+
+
 
 /* Footer */
 footer ul {
@@ -27,12 +29,13 @@ footer ul {
 
  }
 
-
-
-
-
-/* Petits écrans */
-@media screen and (max-width:1024px){ 
+/* PC de bureau */
+@media screen and (min-width:1023px){ 
 
 
 }
+
+
+
+
+
