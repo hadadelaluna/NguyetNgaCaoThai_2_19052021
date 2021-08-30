@@ -17,11 +17,12 @@ body {
   font-size-adjust: none;
   font-stretch: normal;
   color: #888888;
+  a:active {color:#6200FF;}
 }
 
 /* Page */
 
-
+/* liens sélectionnés 6200FF */
 
 /* Footer */
 footer ul {
