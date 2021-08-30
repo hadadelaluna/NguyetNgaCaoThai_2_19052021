@@ -17,11 +17,9 @@ body {
   font-size-adjust: none;
   font-stretch: normal;
   color: #888888;
-  a:active {color:#6200FF;}
+  a:active {color:#6200FF; text-decoration:none;}
   a:link 
-{ 
- text-decoration:none; 
-} 
+
 }
 
 /* Page */
