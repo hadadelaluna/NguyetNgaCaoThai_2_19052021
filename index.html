@@ -13,13 +13,13 @@
 
 <body>
     <header>
-        <img id="LogoHeader" src="./images/logo/Reservia@3x.png">
-        <a id="CompteClient" href="index.html">S'inscrire</a>
+        <img class="LogoHeader" src="./images/logo/Reservia@3x.png">
+        <a class="CompteClient" href="index.html">S'inscrire</a>
         <!-- lien provisoire -->
         <nav>
-            <a id="NavGauche" href="index.html">Hébergements</a>
+            <a class="NavGauche" href="index.html">Hébergements</a>
             <!-- lien provisoire -->
-            <a id="NavDroite" href="index.html">Activités</a>
+            <a class="NavDroite" href="index.html">Activités</a>
             <!-- lien provisoire -->
         </nav>
         <section>
@@ -27,7 +27,7 @@
             <h3>En plein centre ville ou en pleine nature</h3>
             <form method="post" action="hebergements.php">
                 <label>Rechercher
-		        <input name="localisation">
+		        <input name="localisation" type="search" >
 		    	</label>
             </form>
             <!--Message de synthèse de la recherche-->
@@ -42,9 +42,9 @@
             <!--résultats recherche hébergement-->
             <h2>H&eacute;bergements &agrave;
                 <!--insérer le nom de commune -->
+                <!--accord pluriel?-->
+                <!-- grille affichage résultats -->
             </h2>
-            <!--accord pluriel?-->
-            <!-- grille affichage résultats -->
             <article>
                 <!--fiche hébergement-->
             </article>
@@ -59,16 +59,16 @@
 
         <section>
             <!--Pavé activités-->
-            <article>
-                <h2>Activit&eacute;s &agrave;
-                    <!--insérer le nom de commune -->
-                </h2>
+            <h2>Activit&eacute;s &agrave;
+                <!--insérer le nom de commune -->
                 <!--accord pluriel?-->
-                <!--résultats recherche activités-->
-                <!-- grille affichage résultats -->
-                <div>
-                    <!--fiche activité -->
-                </div>
+            </h2>
+            <!--résultats recherche activités-->
+            <!-- grille affichage résultats -->
+            <article>
+
+                <!--fiche activité -->
+
             </article>
         </section>
     </main>
