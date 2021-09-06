@@ -20,18 +20,26 @@ body {
   
 
 }
-a {
+
+/* Header */
+header a {
   color:#0065FC; 
   text-decoration:none;}
 
-/* Page */
 
-/* liens sélectionnés 6200FF */
+
+/* Main */
+
 
 /* Footer */
 footer ul {
   list-style-type: none;
 
+ }
+
+ footer a {
+  color: #000;
+  text-decoration:none;
  }
 
 /* PC de bureau */
