@@ -25,12 +25,15 @@ body {
 header a:active {
   color:#0065FC; 
   text-decoration:none;
-
 }
 header a {
-  text-decoration:none;
+  text-decoration:none;}
 
-
+  header a:visited {
+    color:#FFFFFF; 
+    text-decoration:none;
+  
+  
 /* Main */
 
 
