@@ -20,18 +20,18 @@ body {
   
 
 }
+a {
+  text-decoration:none;}
+
 
 /* Header */
 header a:active {
   color:#000; 
-  text-decoration:none;
 }
-header a {
-  text-decoration:none;}
 
-  header a:visited {
-    color:#0065FC; 
-    text-decoration:none;}
+header a:visited {
+  color:#0065FC; 
+  text-decoration:none;}
   
   
 /* Main */
@@ -45,7 +45,6 @@ footer ul {
 
  footer a:visited:active {
   color: #000;
-  text-decoration:none;
  }
 
 /* PC de bureau */
