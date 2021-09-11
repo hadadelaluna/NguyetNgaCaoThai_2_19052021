@@ -25,13 +25,14 @@ a {
 
 
 /* Header */
+
 header a:active {
   color:#000; 
 }
 
 header a:visited {
-  color:#0065FC; 
-  text-decoration:none;}
+  color:#0065FC;
+}
   
   
 /* Main */
