@@ -8,7 +8,7 @@ html {
 }
 body {
   margin: 0;
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, Encode Sans Semi Expanded,  Montserrat ExtraLight, Lane, Sansumi-Regular, Coco Gothic UltraLight, Work Sans ExtraLight, Drugs, Walkway, sans-serif;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
@@ -22,10 +22,15 @@ body {
 }
 
 /* Header */
-header a {
+header a:active {
   color:#0065FC; 
   text-decoration:none;
+
 }
+header a {
+  color:F2F2F2; 
+  text-decoration:none;
+
 
 /* Main */
 
