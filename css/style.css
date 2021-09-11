@@ -43,7 +43,7 @@ footer ul {
 
  }
 
- footer a {
+ footer a:visited:active {
   color: #000;
   text-decoration:none;
  }
