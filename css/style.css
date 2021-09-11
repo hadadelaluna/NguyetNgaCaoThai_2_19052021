@@ -26,13 +26,13 @@ a {
 
 /* Header */
 
-/* lien sélectionné et survolé */
-header a:active a:hover {
+/* lien sélectionné et survolé et visité*/
+header a:active a:hover a:visited {
   color:#0065FC; 
 }
 
- /* liens visité et non visité */
-header a:link a:visited {
+ /* lien non visité */
+header a:link  {
   color: #000;
 }
 
