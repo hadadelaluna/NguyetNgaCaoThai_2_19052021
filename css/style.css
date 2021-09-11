@@ -23,14 +23,14 @@ body {
 
 /* Header */
 header a:active {
-  color:#0065FC; 
+  color:#FFF; 
   text-decoration:none;
 }
 header a {
   text-decoration:none;}
 
   header a:visited {
-    color:#FFFFFF; 
+    color:#0065FC; 
     text-decoration:none;
   
   
