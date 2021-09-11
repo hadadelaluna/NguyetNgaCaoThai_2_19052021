@@ -31,8 +31,7 @@ header a:active {
 }
 
 header a:visited {
-  color:#0065FC;
-}
+  color:#0065FC;}
   
   
 /* Main */
@@ -44,7 +43,7 @@ footer ul {
 
  }
 
- footer a:visited:active {
+ footer a:link, a:visited a:link:active, a:visited:active {
   color: #000;
  }
 
