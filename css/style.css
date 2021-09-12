@@ -3,12 +3,16 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   background-color: #fff;
 }
+
 body {
   margin: 0;
-  font-family: Raleway, Encode Sans Semi Expanded,  Montserrat ExtraLight, Lane, Sansumi-Regular, Coco Gothic UltraLight, Work Sans ExtraLight, Drugs, Walkway, sans-serif;
+  font-family: Raleway, Encode Sans Semi Expanded, Montserrat ExtraLight, Lane,
+    Sansumi-Regular, Coco Gothic UltraLight, Work Sans ExtraLight, Drugs,
+    Walkway, sans-serif;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
@@ -17,50 +21,36 @@ body {
   font-size-adjust: none;
   font-stretch: normal;
   color: #000;
-  
-
 }
-a {
-  text-decoration:none;}
 
+a {
+  text-decoration: none;
+}
 
 /* Header */
 
 /* lien sélectionné et survolé et visité*/
 header a:active a:hover a:visited {
-  color:#0065FC; 
+  color: #0065fc;
 }
 
- /* lien non visité */
-header a:link  {
+/* lien non visité */
+header a:link {
   color: #000;
 }
 
-
-
-
-
-  
 /* Main */
-
 
 /* Footer */
 footer ul {
   list-style-type: none;
-
- }
-
- footer a:link, a:visited a:link:active, a:visited:active {
-  color: #000;
- }
-
-/* PC de bureau */
-@media screen and (min-width:1023px){ 
-
-
 }
 
+/* Pb à rendre lines «invisibles» lorsque visités */
+footer a:link a:active a:hover a:visited {
+  color: #000;
+}
 
-
-
-
+/* PC de bureau */
+@media screen and (min-width: 1023px) {
+}
