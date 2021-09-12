@@ -1,4 +1,9 @@
 /* Petits écrans */
+@font-face {
+  font-family: Raleway;
+  src: url(./raleway/Raleway-*);
+  src: url(./raleway/static/Raleway-*)
+}
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +51,7 @@ footer ul {
   list-style-type: none;
 }
 
-/* Pb à rendre lines «invisibles» lorsque visités */
+/* Pb à rendre lines «invisibles» lorsque visités s'affichent violet */
 footer a:link a:active a:hover a:visited {
   color: #000;
 }
