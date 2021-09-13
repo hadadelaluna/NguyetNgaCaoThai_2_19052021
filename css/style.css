@@ -34,9 +34,15 @@ a {
 
 /* Header */
 
-/* lien sélectionné et survolé et visité*/
-header a:active a:hover a:visited {
-  color: #0065fc;
+nav {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+.LogoHeader {
+  padding-left: 20px;
 }
 
 /* lien non visité */
@@ -44,12 +50,26 @@ header a:link {
   color: #000;
 }
 
-/* Main */
-.SectionHebergement {
-
-
-  
+/* lien sélectionné et survolé et visité*/
+header a:visited, header a:hover, header a:active {
+  color: #0065fc;
 }
+
+#CompteClient {
+  font-weight: bold;
+  color: #0065fc;
+}
+
+.LogoHeader img {
+  width: 50%;
+}
+
+
+
+
+
+
+/* Main */
 
 /* Footer */
 footer ul {
@@ -57,10 +77,22 @@ footer ul {
 }
 
 /* Pb à rendre lines «invisibles» lorsque visités s'affichent violet */
-footer a:link a:active a:hover a:visited {
+footer a {
   color: #000;
+}
+
+footer a:hover {
+  color:rgba(68, 65, 65, 0.671);
+  text-decoration: underline;
 }
 
 /* PC de bureau */
 @media screen and (min-width: 1023px) {
+  nav {
+    grid-template-columns: 54.5% 15% 15% 15% 0.5%
+  }
+
+  #CompteClient {
+    order: 4;
+  }
 }
