@@ -92,9 +92,9 @@ footer a:hover {
   text-decoration: underline;
 }
 
-footer{
+footer {
   display: grid;
-  grid-template-columns: repeat(»,1fr);
+  grid-template-columns: repeat(3,1fr);
   grid-gap: 10px;
   justify-items: left;
   align-items: left;
