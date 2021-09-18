@@ -98,6 +98,7 @@ footer {
   grid-gap: 10px;
   justify-items: center;
   align-items: center;
+  vertical-align:top;
 }
 
 /* PC de bureau */
