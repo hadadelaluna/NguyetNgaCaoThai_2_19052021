@@ -97,7 +97,7 @@ footer {
   grid-template-columns: repeat(3,1fr);
   grid-gap: 10px;
   justify-items: left;
-  align-items: left;
+  align-items: center;
 }
 
 /* PC de bureau */
