@@ -64,6 +64,10 @@ header a:visited, header a:hover, header a:active {
   width: 50%;
 }
 
+
+/* Main */
+
+
 main {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -72,11 +76,6 @@ main {
   align-items: justify;
 
 }
-
-
-
-
-/* Main */
 
 /* Footer */
 footer ul {
@@ -91,6 +90,14 @@ footer a {
 footer a:hover {
   color:rgba(68, 65, 65, 0.671);
   text-decoration: underline;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(»,1fr);
+  grid-gap: 10px;
+  justify-items: left;
+  align-items: left;
 }
 
 /* PC de bureau */
