@@ -77,7 +77,7 @@ main {
 
 }
 
-main #SectionHebergement #AsideHebergement {
+#SectionHebergement #AsideHebergement {
   border-radius: 10px;
   background-color: #F2F2F2
 
