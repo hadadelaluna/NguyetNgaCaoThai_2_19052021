@@ -77,12 +77,17 @@ main {
 
 }
 
-.SectionHebergement .AsideHebergement {
+.SectionHebergement {
   border-radius: 10px;
   background-color: #F2F2F2;
 
 }
 
+.SectionHebergement {
+  border-radius: 10px;
+  background-color: #F2F2F2;
+
+}
 
 /* Footer */
 footer ul {
