@@ -77,6 +77,13 @@ main {
 
 }
 
+main #SectionHebergement #AsideHebergement {
+  border-radius: 10px;
+  background-color: #F2F2F2
+
+}
+
+
 /* Footer */
 footer ul {
   list-style-type: none;
