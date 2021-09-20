@@ -78,19 +78,14 @@ main {
 
 }
 
-section .SectionHebergement {
-  border-radius: 10px;
-  background-color: #F2F2F2;
-
+.SectionHebergement {
+  display: grid;
+  grid-template-columns: 69% 29%;
+  grid-gap: 1%;
+    
 }
 
-aside .AsideHebergement {
-  border-radius: 10px;
-  background-color: #F2F2F2;
-
-}
-
-article .ArticleHebergement {
+article.ArticleHebergement {
   border-radius: 10px;
   background-color: #fff;
 
