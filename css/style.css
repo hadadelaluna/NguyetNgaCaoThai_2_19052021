@@ -42,8 +42,13 @@ nav {
   justify-items: center;
   align-items: center;
 }
+
 .LogoHeader {
   padding-left: 20px;
+}
+
+.Navigation{
+  background-color: #fff;
 }
 
 /* lien non visité */
