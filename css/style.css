@@ -75,9 +75,6 @@ header a:visited, header a:hover, header a:active {
 
 
 section {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-gap: 10px;
   justify-items: justify;
   align-items: justify;
 
